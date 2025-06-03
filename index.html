@@ -55,12 +55,33 @@
             var num1 = 7;
             var num2 = 5;
 
-        document.getElementById("math").innerHTML= (num1 * num2);
+        document.getElementById("math").innerHTML= (num1 * num2); 
             
         }
     </script>
-
-
 </div>
+
+<!------Lesson 4(Conditions)--------->
+<div class="lesson">
+
+<h2>Lesson 4: If/Else Decisions (Conditions)</h2>
+
+<input type="password" id="password" placeholder="Type your password">
+<button onclick="lesson4()"> Check password</button>
+<div class="result" id="result4"></div>
+<script>
+function lesson4() {
+    var userPassword =document.getElementById("password").value;
+ 
+if(userPassword == "Msih")
+{ document.getElementById("result4").innerHTML="Correct password. You are now logged in."
+
+} else {
+    document.getElementById("result4").innerHTML="Wrong password please try again"
+}
+}
+</script>
+</div>
+<!-----Lesson 5-------->
 </body>
 </html>
