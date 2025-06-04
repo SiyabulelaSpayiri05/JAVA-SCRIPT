@@ -91,5 +91,22 @@ if(userPassword == "Msih")
     <p>Click on the word "JavaScript" above</p>
 
 </div>
+ 
+<!------lesson6:Toggle Functions---------->
+<div class="lesson">
+<h2>Lesson6: Toggle Functions</h2>
+<h3 id="toggle" onclick="toggletext()"> JavaScript</h3>
+<p>Click repeatedly to toggle!</p>
+
+<script>
+    function toggletext() {
+        var toggle = document.getElementById("toggle");
+        if(toggle.innerHTML == "JavaScript"){ 
+            toggle.innerHTML = "is awwesome";
+        }else {toggle.innerHTML = "JavaScript"}
+    }
+     </script>
+   </div>
+   
 </body>
 </html>
